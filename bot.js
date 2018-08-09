@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 var bot = new Discord.Client({ fetchAllMembers: true, disableEveryone: true, autoReconnect: true });
 bot.config = require("./config.js");
 
+const fs = require("fs");
 
 
 
