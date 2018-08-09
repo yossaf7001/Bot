@@ -9,6 +9,8 @@
   "author": "people",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.0"
+    "discord.js": "^11.4.0",
+       "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2"
   }
 }
