@@ -1,6 +1,8 @@
 var Discord = require("discord.js");
   exports.run = async (bot, message, args = []) => {
 
+
+
       
  var ids = [
             "20",
@@ -21,7 +23,6 @@ var Discord = require("discord.js");
             "33"
             ]
             const randomizer = Math.floor(Math.random()*ids.length);
-            const args = message.content.split(" ").slice(1).join(" ")
     if (!args) return message.channel.send("**اكتب محتوي الانجاز**");
     const image = new Discord.Attachment(`https://www.minecraftskinstealer.com/achievement/a.php?i=${ids[randomizer]}&h=Achievement Get!&t=${args}`, "achievement.png");
 message.channel.send(image)
